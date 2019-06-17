@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<af:componentDef xmlns:af="http://xmlns.oracle.com/adf/faces/rich" var="attrs" componentVar="comp" definition="private"
+                 xmlns:afc="http://xmlns.oracle.com/adf/faces/rich/component">
+    <af:toolbar id="dc_t1">
+        <af:group id="dc_g1">
+            <af:button text="Add" id="dc_b1"/>
+            <af:button text="Delete" id="dc_b2"/>
+        </af:group>
+        <af:spacer width="10" height="10" id="dc_s1"/>
+        <af:group id="dc_g2">
+            <af:button text="First" id="dc_b3"/>
+            <af:button text="Previous" id="dc_b4"/>
+            <af:button text="Next" id="dc_b5"/>
+            <af:button text="Last" id="dc_b6"/>
+        </af:group>
+        <af:spacer width="10" height="10" id="dc_s2"/>
+        <af:group id="dc_g3">
+            <af:button text="Save" id="dc_b7"/>
+            <af:button text="RollBack" id="dc_b8"/>
+        </af:group>
+    </af:toolbar>
+    <af:xmlContent>
+        <afc:component>
+            <afc:description/>
+            <afc:display-name>bDC</afc:display-name>
+            <afc:component-extension>
+                <afc:component-tag-namespace>bDC</afc:component-tag-namespace>
+                <afc:component-taglib-uri>/bDC</afc:component-taglib-uri>
+            </afc:component-extension>
+        </afc:component>
+    </af:xmlContent>
+</af:componentDef>
